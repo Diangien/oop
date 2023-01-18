@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: #72F2EB;
+}
+
+header{
+    height: 200px;
+    position:relative;
+    background-image: url('../assets/Imel.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-container{
+    position:absolute;
+    color:rgb(21, 28, 29);
+    font-size: 30px;
+    font-weight: 700;
+} 
+
+.disc{
+    font-size: 25px;
+    color: #FF5F5D;
+}
+
+.hre{
+    display: flex;
+    justify-content: center;
+}
+
+.sep{
+    background-color: aquamarine;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    border:  none;
+}
+
+.r1{
+    position: relative;
+    background-color: #00CCBF;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.resp{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #3F7C85;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+.perg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.objectos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: #A1C7E0;
+}
+
+.author{
+    width: 230px;
+    border: dotted black 2px;
+}
+
+
+@media only screen and (max-width:700px) {
+    .r1{
+        width: 340px;
+    }
+}
